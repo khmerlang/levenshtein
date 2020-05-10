@@ -3,19 +3,17 @@
 [Levenshtein Distance](http://en.wikipedia.org/wiki/Levenshtein_distance) for calculate distance of two string in Golang.
 
 #### Install
--------
 
     go get github.com/khmerlang/levenshtein
 
 #### Example
--------
 
 ```go
 package main
 
 import (
   "fmt"
-  "github.com/khmerlang/levenshtein/levenshtein"
+  "github.com/khmerlang/levenshtein"
 )
 
 func main() {
