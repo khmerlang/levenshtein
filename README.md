@@ -2,12 +2,12 @@
 
 [Levenshtein Distance](http://en.wikipedia.org/wiki/Levenshtein_distance) for calculate distance of two string in Golang.
 
-Install
+#### Install
 -------
 
     go get github.com/khmerlang/levenshtein
 
-Example
+#### Example
 -------
 
 ```go
