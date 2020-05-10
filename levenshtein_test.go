@@ -22,7 +22,7 @@ func TestDistance(t *testing.T) {
 	for index, distanceTest := range distanceTests {
 		result := Distance(distanceTest.str_1, distanceTest.str_2)
 		if result != distanceTest.expected {
-			output := fmt.Sprintf("%v \t distance between %v and %v should be %v but was %v.",
+			output := fmt.Sprintf("%v \t ចំងាយរវាង %v និង %v គួរតែ %v ប៉ុន្តែ %v.",
 				index, distanceTest.str_1, distanceTest.str_2, distanceTest.expected, result)
 			t.Errorf(output)
 		}
