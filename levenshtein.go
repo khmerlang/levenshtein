@@ -6,7 +6,7 @@ func Distance(str1, str2 string) int {
 	s2 := []rune(str2)
 	insertion_cost := 1
 	deletion_cost := 1
-	sub_cost := 1
+	sub_cost := 2
 
 	len_s1 := len(s1)
 	len_s2 := len(s2)
